@@ -385,13 +385,16 @@ int main()
 				temp2 = temp2->right;
 			}
 		}
-		else if (loopInput == 9)
+		else if (loopInput == 9)          //Printing our merged tree
 		{
 		int orderInput;
+		
 		cout << "Press 1 to print inorder of tree " << endl;
 		cout << "Press 2 to print preorder of tree " << endl;
 		cout << "Press 3 to print postorder of tree " << endl;
+		
 		cin >> orderInput;
+		
 		if (orderInput == 1)
 		{
 			b3.inorder(b3.root);
